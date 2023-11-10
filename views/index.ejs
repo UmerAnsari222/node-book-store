@@ -1,0 +1,11 @@
+<h2 class="page-header">Recently Books</h2>
+
+<div>
+    <% books.forEach(book=> {%>
+        <a href="/book/<%= book.id%>">
+            <img src="<%= book.coverImagePath%>" height="150" width="100">
+        </a>
+
+        <% }) %>
+
+</div>
